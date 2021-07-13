@@ -1,0 +1,86 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://cpitta.github.io/testone/manifests/manifest8.json",
+  "@type" : "sc:Manifest",
+  "label" : "Busto da Princesa Helena de Itália",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Princess Helen of Italy",
+    "@language" : "en"
+  }, {
+    "@value" : "Princesa Helena de Itália",
+    "@language" : "pt"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : [ {
+    "@value" : "Cecília Pitta"
+  }, {
+    "@value" : "Escultor desconhecido",
+    "@language" : "pt"
+  }, {
+    "@value" : "unknown artist",
+    "@language" : "en"
+  } ],
+  "sequences" : [ {
+    "@id" : "http://50cc39ff-ae1e-4e54-8267-a5d3785dd36d",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://3142042b-1ddf-437e-acfd-bcb8f040c34e",
+      "@type" : "sc:Canvas",
+      "label" : "Front",
+      "height" : 801,
+      "width" : 451,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9abdb1d6-b484-4c39-9f81-a2c0a1665136",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/marg3/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/marg3",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 801,
+          "width" : 451
+        },
+        "on" : "http://3142042b-1ddf-437e-acfd-bcb8f040c34e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://58740ea4-900e-494e-80f3-3d035cb9482b",
+      "@type" : "sc:Canvas",
+      "label" : "Profile",
+      "height" : 801,
+      "width" : "451",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://eacf3309-2621-48e9-90b8-5c8236236cd7",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/marg2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/marg2",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 801,
+          "width" : 451
+        },
+        "on" : "http://58740ea4-900e-494e-80f3-3d035cb9482b"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
