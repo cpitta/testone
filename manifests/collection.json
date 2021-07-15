@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://cpitta.github.io/testone/manifests/shop.json",
     "label" : "Pasteries shop"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://cpitta.github.io/testone/manifests/pasta_manifest.json",
+    "label" : "Cheese & Pasta shop in Bologna"
   } ]
 }
