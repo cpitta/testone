@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://cpitta.github.io/testone/manifests/shop1manifest.json",
   "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
+  "label" : "Pasteries shop",
   "metadata" : [ ],
   "description" : [ {
     "@value" : "Window shop with italian pastries in Bologna, Italy",
