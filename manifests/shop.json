@@ -1,0 +1,62 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://cpitta.github.io/testone/manifests/shop.json",
+  "@type" : "sc:Manifest",
+  "label" : "Pasteries shop",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://sas.gdmrdigital.com/search-api/manifests/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Window shop with italian pastries in Bologna, Italy",
+    "@language" : "en"
+  }, {
+    "@value" : "Montra de uma loja com pastelaria italiana na cidade de Bolonha, Itália",
+    "@language" : "pt"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Cecilia Pitta",
+  "sequences" : [ {
+    "@id" : "http://a3b942d9-c775-44a1-b701-c1a806e7a068",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://38ebe2ac-c2a5-4730-bd5f-67315c66d46f",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 801,
+      "width" : 451,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://930474d2-4757-4ad3-a4b9-a3f1f58f8b04",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/shop1_202107/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/shop1_202107",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 801,
+          "width" : 451
+        },
+        "on" : "http://38ebe2ac-c2a5-4730-bd5f-67315c66d46f"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://cpitta.github.io/testone/annotations/annotation1.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
