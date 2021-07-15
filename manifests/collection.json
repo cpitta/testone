@@ -7,10 +7,6 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "@type" : "sc:Manifest",
-    "@id" : "https://cpitta.github.io/testone/manifests/manifest8.json",
-    "label" : "Busto da Princesa Helena de Itália"
-  }, {
-    "@type" : "sc:Manifest",
     "@id" : "https://cpitta.github.io/testone/manifests/shop.json",
     "label" : "Pasteries shop"
   } ]
