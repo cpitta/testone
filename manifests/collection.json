@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://cpitta.github.io/testone/manifests/manifest8.json",
     "label" : "Busto da Princesa Helena de Itália"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://cpitta.github.io/testone/manifests/shop1manifest.json",
+    "label" : "[Click to edit label]"
   } ]
 }
