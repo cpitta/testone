@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 102,
+    "height" : 58
+  }, {
+    "width" : 204,
+    "height" : 115
+  }, {
+    "width" : 408,
+    "height" : 230
+  }, {
+    "width" : 816,
+    "height" : 459
+  }, {
+    "width" : 1632,
+    "height" : 918
+  }, {
+    "width" : 3264,
+    "height" : 1836
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3264,
+  "@id" : "https://cpitta.github.io/testone/images/20181019_131823",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1836
+}
