@@ -1,0 +1,66 @@
+{
+  "id" : "https://cpitta.github.io/testone/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in cpitta/testone project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 3264,
+    "id" : "https://cpitta.github.io/testone/images/20181019_131823/canvas/",
+    "label" : {
+      "none" : [ "20181019_131823" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://cpitta.github.io/testone/images/20181019_131823/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://cpitta.github.io/testone/images/20181019_131823/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 102,
+              "height" : 58
+            }, {
+              "width" : 204,
+              "height" : 115
+            }, {
+              "width" : 408,
+              "height" : 230
+            }, {
+              "width" : 816,
+              "height" : 459
+            }, {
+              "width" : 1632,
+              "height" : 918
+            }, {
+              "width" : 3264,
+              "height" : 1836
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3264,
+            "@id" : "https://cpitta.github.io/testone/images/20181019_131823",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1836
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3264,
+          "id" : "https://cpitta.github.io/testone/images/20181019_131823/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1836
+        },
+        "target" : "https://cpitta.github.io/testone/images/20181019_131823/canvas/"
+      } ]
+    } ],
+    "height" : 1836
+  } ]
+}
