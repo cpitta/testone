@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://cpitta.github.io/testone/manifests/pasta_manifest.json",
     "label" : "Cheese & Pasta shop in Bologna"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://cpitta.github.io/testone/manifests/shere_manifest.json",
+    "label" : "Mouseleum of the Emperor Shere Shahl by W. Daniell RA"
   } ]
 }
