@@ -17,5 +17,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://cpitta.github.io/testone/manifests/shere_manifest.json",
     "label" : "Mouseleum of the Emperor Shere Shahl by W. Daniell RA"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://cpitta.github.io/testone/manifests/shere_manifest2.json",
+    "label" : "Mouseleum of the Emperor Shere Shahl by W. Daniell RA"
   } ]
 }
