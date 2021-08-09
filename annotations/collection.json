@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://cpitta.github.io/testone/annotations/annotation1.json", "https://cpitta.github.io/testone/annotations/annotationshere.json", "https://cpitta.github.io/testone/annotations/ANNOTATION2.json" ],
+  "otherContent" : [ "https://cpitta.github.io/testone/annotations/annotation1.json", "https://cpitta.github.io/testone/annotations/annotationshere.json", "https://cpitta.github.io/testone/annotations/ANNOTATION2.json", "https://cpitta.github.io/testone/annotations/ANOTATION3.json" ],
   "@id" : "https://cpitta.github.io/testone/annotations/collection.json",
   "label" : "All annotations loaded in cpitta/testone project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
