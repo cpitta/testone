@@ -1,0 +1,135 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://cpitta.github.io/testone/manifests/pasta_manifest0.json",
+  "@type" : "sc:Manifest",
+  "label" : "Cheese & Pasta shop in Bologna v.2",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A windows shop displying cheese, salame and handmade pasta in the city of Bologna",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Cecília Pitta",
+  "sequences" : [ {
+    "@id" : "http://2d6fb5a1-0df8-4943-98d4-5cc2bc941b11",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://23773134-d0c8-4e18-bb58-9f5c4a0c6458",
+      "@type" : "sc:Canvas",
+      "label" : "Full Window",
+      "height" : 1836,
+      "width" : 3264,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c9fb3a91-5c4b-40a7-a719-6b5b9a550177",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/20181019-131809_202107/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/20181019-131809_202107",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1836,
+          "width" : 3264
+        },
+        "on" : "http://23773134-d0c8-4e18-bb58-9f5c4a0c6458"
+      }, {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://80e11fc0-26bd-4915-b64b-e5f817101639",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/20181019-131823/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/20181019-131823",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1836,
+          "width" : 3264
+        },
+        "on" : "http://23773134-d0c8-4e18-bb58-9f5c4a0c6458#xywh=979,465,1063,805"
+      } ],
+      "otherContent" : [ {
+        "@id" : "http://localhost:8887/ANOTATION3.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://afabc461-0811-4cc6-892d-3d85fb81e222",
+      "@type" : "sc:Canvas",
+      "label" : "Window centre",
+      "height" : 1836,
+      "width" : 3264,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://80e11fc0-26bd-4915-b64b-e5f817101639",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/20181019-131823/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/20181019-131823",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1836,
+          "width" : 3264
+        },
+        "on" : "http://afabc461-0811-4cc6-892d-3d85fb81e222"
+      } ],
+      "otherContent" : [ {
+        "@id" : "http://localhost:8887/ANOTATION4.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b46a04c0-6c75-475d-b5fd-73ef0cc9cbb4",
+      "@type" : "sc:Canvas",
+      "label" : "Window bottom left side",
+      "height" : 1836,
+      "width" : 3264,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://27f6b537-5d8a-44f5-aac4-86a95fb67fd8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/20181019-131816/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/20181019-131816",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1836,
+          "width" : 3264
+        },
+        "on" : "http://b46a04c0-6c75-475d-b5fd-73ef0cc9cbb4"
+      } ],
+      "otherContent" : [ {
+        "@id" : "http://localhost:8887/ANNOTATION2.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "viewingDirection" : "left-to-right"
+}
