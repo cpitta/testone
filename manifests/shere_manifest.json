@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://cpitta.github.io/testone/manifests/shere_manifest.json",
   "@type" : "sc:Manifest",
-  "label" : "William Daniell RA, 1769–1837, Mouseleum of the Emperor Shere Shah",
+  "label" : "William Daniell RA, 1769–1837, Mausoleum of the Emperor Shere Shah",
   "service" : {
     "profile" : "http://iiif.io/api/search/0/search",
     "@id" : "http://sas.gdmrdigital.com/search-api/4be18d7c616fc5c2a22c6c3a28eb13e2/search",
@@ -10,7 +10,7 @@
   },
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "Drawing of Mouseleum of the Emperor Shere Shah by W. Daniell RA. Engraved by E. J. Harris",
+    "@value" : "Drawing of Mausoleum of the Emperor Shere Shah by W. Daniell RA. Engraved by E. J. Harris",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
