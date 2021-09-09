@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://cpitta.github.io/testone/manifests/shere_manifest.json",
   "@type" : "sc:Manifest",
-  "label" : "Mouseleum of the Emperor Shere Shahl by W. Daniell RA",
+  "label" : "William, Daniell RA, 1769–1837, Mouseleum of the Emperor Shere Shah",
   "service" : {
     "profile" : "http://iiif.io/api/search/0/search",
     "@id" : "http://sas.gdmrdigital.com/search-api/4be18d7c616fc5c2a22c6c3a28eb13e2/search",
@@ -10,11 +10,11 @@
   },
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "Drawing of Mouseleum of the Emperor Shere Shahl by W. Daniell RA. Engraved by E. J. Harris",
+    "@value" : "Drawing of Mouseleum of the Emperor Shere Shah by W. Daniell RA. Engraved by E. J. Harris",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "W- Daniell RA",
+  "attribution" : "W. Daniell RA",
   "sequences" : [ {
     "@id" : "http://4fce4665-9624-4c0e-be20-2c494c2521ed",
     "@type" : "sc:Sequence",
@@ -25,7 +25,7 @@
     "canvases" : [ {
       "@id" : "http://1c901edd-8bfa-4e68-bdb7-43bcc84a1b99",
       "@type" : "sc:Canvas",
-      "label" : "19th Century drawing",
+      "label" : "19th Century print by W. Daniell RA",
       "height" : 2298,
       "width" : 3212,
       "images" : [ {
