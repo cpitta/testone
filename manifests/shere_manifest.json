@@ -48,7 +48,7 @@
         "on" : "http://1c901edd-8bfa-4e68-bdb7-43bcc84a1b99"
       } ],
       "otherContent" : [ {
-        "@id" : "https://cpitta.github.io/testone/annotations/annotation_shere.json",
+        "@id" : "https://cpitta.github.io/testone/annotations/annotations_shere.json",
         "@type" : "sc:AnnotationList",
         "label" : "My fantastic annotations"
       } ],
